@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export default function Header() {
-  const [selectedItem, setSelectedItem] = useState('');
+  const [selectedItem, setSelectedItem] = useState('home');
 
   const handleItemClick = (item) => {
     setSelectedItem(item);
